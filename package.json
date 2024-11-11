@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "cucumber-js test && node generate-report.js",
+    "posttest": "node generate-report.js"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.5",
+    "axios": "^1.7.7",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^6.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "baseURL": "https://www.example.com",
+  "mandatoryPages": [
+    "/kontakt",
+    "/barriere-melden",
+    "/erklaerung-zur-barrierefreiheit",
+    "/datenschutzerklaerung",
+    "/impressum"
+  ],
+  "numberOfMendetoryCoocies": 3
+}
